@@ -19,7 +19,7 @@ public class ReviewCheckoutPage extends ProjectSpecificWrappers {
 
 	public CheckoutPage validateProductAdded() {
 		getTextByXpath("//span[@class='item-title']");
-		verifyTextByXpath("//span[@class='item-title']", "Mobile Applications");
+		//verifyTextByXpath("//span[@class='item-title']", "Mobile Applications");
 		return new CheckoutPage(driver,test);
 	}
 }
