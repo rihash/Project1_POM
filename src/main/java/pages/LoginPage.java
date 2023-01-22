@@ -30,13 +30,13 @@ public class LoginPage extends ProjectSpecificWrappers {
 	}
 	
 	public LoginPage clickNotRobot() throws InterruptedException{
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		clickByXpath("//div[@class='g-recaptcha']");
 		return this;
 	}
 	
 	public HomePage clickLogin() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(10000);
 		clickByXpath("//button[contains(text(),'Login')]");
 		return new HomePage(driver,test);
 	}

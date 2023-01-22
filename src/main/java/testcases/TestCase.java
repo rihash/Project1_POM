@@ -31,8 +31,6 @@ public class TestCase extends ProjectSpecificWrappers{
 		.validateProductAdded()
 		.clickCheckout()
 		.clickCompleteOrder();
-		
-		
-		
+	
 	}
 }
